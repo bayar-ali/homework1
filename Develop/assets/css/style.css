@@ -48,7 +48,9 @@ p {
     font-size: 16px;
 }
 
-.hero {
+/* I changed the background image */
+
+.hero { 
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -83,12 +85,8 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-brand {
+/* i decide to combine these  */
+.benefit-brand  .benefit-cost .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -98,22 +96,15 @@ p {
     color: #ffffff;
 }
 
-.benefit-lead h3 {
+/* i decide to combine these  */
+
+.benefit-brand h3  .benefit-cost h3 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
+
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+.benefit-lead img  {
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -131,6 +122,8 @@ p {
     max-width: 150px;
 }
 
+/* I made some changes to the background colors */
+
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -138,6 +131,8 @@ p {
     background-color: #ee22cc;
     color: #ffffff;
 }
+
+/* I made some changes to the background colors */
 
 .online-reputation-management {
     margin-bottom: 20px;
@@ -168,21 +163,12 @@ p {
     max-height: 200px;
 }
 
-.search-engine-optimization h2 {
+/* i decide to combine these  */
+
+.search-engine-optimization h2 .online-reputation-management h2 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
 .footer {
     padding: 30px;
      clear: both; 
